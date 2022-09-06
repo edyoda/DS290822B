@@ -1,7 +1,7 @@
 num = 20
 num1 = 30
 # here num is variable
-# here 2 is value
+# here 20 is value
 
 print("Age : ",num,num1)
 

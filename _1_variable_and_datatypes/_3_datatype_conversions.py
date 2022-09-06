@@ -52,7 +52,5 @@ print(lst)
 lst1 = set(lst)
 print(lst1)
 
-
 lst2 = list(lst1)
 print(lst2)
-
