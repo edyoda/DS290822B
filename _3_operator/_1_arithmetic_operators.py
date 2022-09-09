@@ -8,7 +8,7 @@
 # // - Floor Divison - it returns quotient but as a int
 # ** - Exponentia - power of, raise to
 
-no1 = 20
+no1 = 20 # Hardcoded value
 no2 = 7
 
 add = no1 + no2
