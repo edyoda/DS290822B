@@ -6,7 +6,7 @@ lst = [12,3,5,6,7,8]
 #     print(i)
 
 length = len(lst)
-# print(length)
+print(length)
 
 for i in range(length):
     print(lst[i])
