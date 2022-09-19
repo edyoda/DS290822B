@@ -40,8 +40,11 @@ print("Og : ",lst)
 # length = len(lst)
 # print(length)
 
-str1 = "Ankit"
-count = 0
-for i in str1:
-    count = count + 1
-    print(i,count)
+# str1 = "Ankit"
+# count = 0
+# for i in str1:
+#     count = count + 1 #5
+#     print(i,count)
+
+del lst[2]
+print(lst)
