@@ -33,5 +33,6 @@ def sorting():
 
 # sorting()
 
-for i in range(2):
-    sorting()
+# for i in range(2):
+#     sorting()
+
