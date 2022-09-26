@@ -29,14 +29,19 @@
 # file.write("Good Night")
 
 
-# a+ mode
-file = open("demo2.txt","a+")
-file.write("Python")
+# # a+ mode
+# file = open("demo2.txt","a+")
+# file.write("Python")
 
-current_position = file.tell()
-print("After writing : ",current_position)
+# current_position = file.tell()
+# print("After writing : ",current_position)
 
-file.seek(0,0)
+# file.seek(0,0)
 
-data = file.read()
-print(data)
+# data = file.read()
+# print(data)
+
+
+file = open("demo1.txt","w")
+file.write("hey all")
+file.close()
