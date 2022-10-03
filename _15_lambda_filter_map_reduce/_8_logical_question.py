@@ -31,17 +31,17 @@ lst = [12,15,17,30,33,25]
 # print(lst2)
 
 
-# 423 - take input from user
+# 423 - take int input from user
 # o/p : Four Two Three
 
-# str1 = "Python is a programming language" - take input from user
-# str2 = "HTML is a markup language"        - take input from user
+# str1 = "Python is a programming language" - take str input from user
+# str2 = "HTML is a markup language"        - take str input from user
 # o/p : Python programming HTML markup
 
-# str1 = "Bharati" - take input from user
+# str1 = "Bharati" - take str input from user
 # o/p : [a,i]
 
-# str1 = "Bharati" - take input from user
+# str1 = "Bharati" - take str input from user
 # {"B":1,"h":1,"a":2,"r":1,"t":1,"i":1}
 
 
