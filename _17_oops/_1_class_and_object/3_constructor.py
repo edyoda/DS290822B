@@ -16,7 +16,7 @@ constructor_obj = constructor()
 # Types of Constructor
 # 1. Default Constructor - if you don't create a constructor in your class, 
 #                          then compiler provides you a constructor
-# 2. Zero Constructor
-# 3. Parameterized Constructor
+# 2. Zero Constructor    - constructor without any paramter
+# 3. Parameterized Constructor - constructor with parameters
 
     
