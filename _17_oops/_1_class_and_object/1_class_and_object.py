@@ -1,4 +1,5 @@
 # class <class_name>
+# class - blueprint for creating an object
 
 class building:                    # class
     def doors(self):               # method
@@ -11,6 +12,10 @@ building_obj = building()          # object/instance
 
 building_obj.doors()
 building_obj.windows()
+
+
+
+
 
 
 
