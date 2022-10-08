@@ -1,4 +1,4 @@
-class test:
+class test(object):
     def __str__(self):
         return "Hello Bharati"
         

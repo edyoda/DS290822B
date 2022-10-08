@@ -2,6 +2,7 @@
 # accessing one class from another class
 # reuse the code
 # saving our time and efforts
+# it follows Is-A Relationship
 
 # Types of inheritance 
 # 1. Single Inheritance
@@ -9,7 +10,6 @@
 # 3. Multiple Inheritance
 # 4. Hierarchical Inheritance
 # 5. Hybrid Inheritance
-
 
 # Single Inheritance 
 # single parent class and single child class
