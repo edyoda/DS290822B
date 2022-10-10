@@ -1,7 +1,6 @@
 # Abstraction
 # means showing the funtionality and hiding the implementation
 
-
 # abstract class - a class with atleast one abstract method
 # abstract method - method with no body
 
