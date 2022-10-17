@@ -1,23 +1,25 @@
-class account:
-    def __init__(self , title , balance):
-        self.title = title
-        self.balance = balance
+import json  
 
-    def display(self):
-        print("(" , self.title , "," , self.balance , ")")
+dict_obj={
+    "Keral" : "Trivendram",
+    "Assam" : "Dishpur",
+    "Jharkhand" : "Ranchi",
+    "Bihar" : "patna",
+    "Meghalay" : "kohima",
+    "Manipur" : "Imphal",
+    "Nagaland" : "Kohima",
+}   
 
-class savingsaccount(account):
-    def __init__(self , title , balance , interestrate):
-        super().__init__(title , balance)
-        self.interestrate = interestrate
+data = json.dumps(dict_obj)
+print(data)
 
-    def display(self):
-        print("(" , self.title , "," , self.balance , "," , self.interestrate , ")")
+{
+    "emp1":{
+        "name":"",
+        "dob" : ""
+    },
+    "emp2":{
+        
+    }
 
-title = input("Enter your name :")
-balance = int(input("Enter your account balance :"))
-interestrate = int(input("Enter interestrate :"))
-account_obj = account()
-account_obj.display()
-savingsaccount_obj = savingsaccount()
-savingsaccount_obj.display()
+}
