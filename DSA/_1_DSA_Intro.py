@@ -10,17 +10,6 @@
 # Algorithm
 # step by step procedure to solve a problem efficiently
 
-# Array ----> List
+from pickletools import long1
 
-# List
-# -> it is used to store collection of same/different types of data
-# -> fetch the data 
-# -> insert the data at specify position 
-# -> remove the data 
 
-lst = [] # [6,7,1,2,4,5]
-# lst.append(6)
-lst.extend([6,7,1,2,4,5])
-lst.insert(2,10)
-lst.remove(4)
-print(lst)
