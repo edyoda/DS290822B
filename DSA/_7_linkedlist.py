@@ -25,8 +25,6 @@ class linkedlist:
     def display(self):
         pass
 
-
-
 if __name__ == "__main__":
     obj = linkedlist()
     obj.append(10)
