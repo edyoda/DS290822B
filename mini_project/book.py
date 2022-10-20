@@ -33,6 +33,40 @@ class book():
     def get_book_ID(self):
         return self.__book_ID
 
+    def set_book_name(self,book_name):
+        self.__book_name = book_name
+
+    def get_book_name(self):
+        return self.__book_name
+
+    def set_book_edition(self,book_edition):
+        self.__book_edition = book_edition
+
+    def get_book_edition(self):
+        return self.__book_edition
+
+    def set_book_author(self,book_author):
+        self.__book_author = book_author
+
+    def get_book_author(self):
+        return self.__book_author
+
+    def set_book_publication(self,book_publication):
+        self.__book_publication = book_publication
+
+    def get_book_publication(self):
+        return self.__book_publication
+
+    def set_book_price(self,book_price):
+        self.__book_price = book_price
+
+    def get_book_price(self):
+        return self.__book_price
+
+
+
+
+
 
 if __name__ == "__main__":
     book_obj = book(1,"Python","I","Guido","Edyoda",500)
