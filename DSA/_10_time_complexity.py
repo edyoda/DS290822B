@@ -80,12 +80,19 @@
 
 
 # O(n!) - Factorial Time
-
-def factorial(data):
+# An algo where the execution complexity increases factorially with the increase in the input
+# value
+def factorial(data): # 123 = 6
     fact = 1
     for i in data:
         fact *= i
 
     print(fact)
+
+factorial(1) # 1
+
+factorial(5) # 1 * 2 * 3 * 4 * 5
+
+factorial(100)
 
 
