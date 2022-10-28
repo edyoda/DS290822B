@@ -9,11 +9,15 @@ class Main:
             print("*******Buy Ticket*******")
             movie_ticket_obj.buy_ticket()
         if choice == 3:
-            pass
+            print("*******Statistics*******")
+            movie_ticket_obj.statistics()
         if choice == 4:
-            pass
+            print("*******User Info*******")
+            movie_ticket_obj.user_info()
         if choice == 0:
-            pass
+            print("*******Thank You for connecting with us! Good Day! Bye*******")
+            exit()
+            
 
 if __name__ == "__main__":
     rows = int(input("Enter the number for rows : "))
