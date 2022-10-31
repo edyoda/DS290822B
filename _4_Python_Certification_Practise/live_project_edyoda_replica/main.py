@@ -29,8 +29,8 @@ if __name__ == "__main__":
                 password_re = re.findall(r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!#%*?&]{6,20}$" , password)
 
                 if name_re and mobile_re and email_re and password_re:
-                    # flag = register("manager","manager.json",name,mobile,email,password)
-                    flag = register("manager","manager.json","Bharati","1234567890","bharati@gmail.com","123456")
+                    flag = register("manager","manager.json",name,mobile,email,password)
+                    
                     if flag:
                         print("Successfully Added")
                     else:
